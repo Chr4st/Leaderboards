@@ -1,12 +1,12 @@
 <?php
 
-namespace iNxtLeaderboard\Tasks;
+namespace Leaderboard\Tasks;
 
 use pocketmine\{Server,Player};
 
 use pocketmine\scheduler\Task;
 
-use iNxtLeaderboard\Leaderboard;
+use Leaderboard\Leaderboard;
 
 class LevelsTask extends Task {
 
