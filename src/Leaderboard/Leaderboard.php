@@ -1,6 +1,6 @@
 <?php
 
-namespace iNxtLeaderboard;
+namespace Leaderboard;
 
 use pocketmine\plugin\PluginBase;
 
@@ -21,10 +21,10 @@ use pocketmine\utils\Config;
 
 use slapper\events\SlapperCreationEvent;
 use onebone\economyapi\EconomyAPI;
-use iNxtLeaderboard\Tasks\LevelsTask;
-use iNxtLeaderboard\Tasks\KillsTask;
-use iNxtLeaderboard\Tasks\CoinsTask;
-use iNxtLeaderboard\Tasks\CreditsTask;
+use Leaderboard\Tasks\LevelsTask;
+use Leaderboard\Tasks\KillsTask;
+use Leaderboard\Tasks\CoinsTask;
+use Leaderboard\Tasks\CreditsTask;
 
 class Leaderboard extends PluginBase implements Listener {
 
