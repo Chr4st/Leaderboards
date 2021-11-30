@@ -34,11 +34,11 @@ class Leaderboard extends PluginBase implements Listener {
 		$this->runTasks();
 		$this->exp = new Config($this->getDataFolder() . "toplevels.yml", Config::YAML);
 		$this->k = new Config($this->getDataFolder() . "topkills.yml", Config::YAML);
-		$this->kills = $this->getServer()->getPluginManager()->getPlugin("iNxtXPLevels");
+		$this->kills = $this->getServer()->getPluginManager()->getPlugin("XPLevels");
 		$this->c = new Config($this->getDataFolder() . "topcoins.yml", Config::YAML);
 		$this->coins = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");
 		$this->cr = new Config($this->getDataFolder() . "topcredits.yml", Config::YAML);
-		$this->credits = $this->getServer()->getPluginManager()->getPlugin("iNxtXPLevels");
+		$this->credits = $this->getServer()->getPluginManager()->getPlugin("XPLevels");
 	}
 	
 	public function runTasks() {
